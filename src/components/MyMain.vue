@@ -10,8 +10,4 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-main {
-  margin-top: 100px;
-}
-</style>
+<style scoped lang="scss"></style>

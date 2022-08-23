@@ -1,7 +1,7 @@
 <template>
   <header>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">WebSite</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -33,12 +33,12 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              Dropdown link
+              Section
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <router-link class="dropdown-item" to="/about">About</router-link>
+              <router-link class="dropdown-item" to="/about">About</router-link>
+              <router-link class="dropdown-item" to="/about">About</router-link>
             </div>
           </li>
         </ul>
