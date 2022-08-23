@@ -1,10 +1,22 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view />
+  <div>
+    <MyHeader />
+    <MyMain />
+  </div>
 </template>
+
+<script>
+import MyHeader from "./components/MyHeader.vue";
+import MyMain from "./components/MyMain.vue";
+
+export default {
+  name: "App",
+  components: {
+    MyHeader,
+    MyMain,
+  },
+};
+</script>
 
 <style lang="scss">
 #app {
