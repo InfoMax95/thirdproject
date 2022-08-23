@@ -1,18 +1,21 @@
 <template>
   <div>
     <MyHeader />
+    <MyCarousel />
     <MyMain />
   </div>
 </template>
 
 <script>
 import MyHeader from "./components/MyHeader.vue";
+import MyCarousel from "./components/MyCarousel.vue";
 import MyMain from "./components/MyMain.vue";
 
 export default {
   name: "App",
   components: {
     MyHeader,
+    MyCarousel,
     MyMain,
   },
 };
